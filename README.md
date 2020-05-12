@@ -1,39 +1,32 @@
 # Hackintosh
 Files and info relating to my hackintosh build
 
+Originally forked from https://github.com/NiknakSi/hackintosh
+
 <img src="neofetch.png" width="800" />
 
-Reddit build thread: https://www.reddit.com/r/hackintosh/comments/dy4zcp/another_i99900kz390_designare5700xt_success_story/
+<img src="About My Mac.png" width="800" />
 
-* Intel Core i9-9900K CPU
-* Corsair H100x CPU cooler
-* Gigabyte Z390 Designare motherboard
-* Corsair Vengeance LPX 32 GB DDR4-3000 memory
-* Samsung 970 Evo Plus 500 GB M.2-2280 NVME SSD (macOS)
-* Samsung 970 Evo Plus 1 TB M.2-2280 NVME SSD (macOS user profile)
-* Samsung 860 Evo 1 TB 2.5" SSD (Windows 10)
-* PowerColor Radeon RX 5700 XT 8 GB Red Devil GPU
-* Silverstone Strider Titanium 800 W 80+ Titanium PSU
-* Fenvi FV-HB1200 Wifi/Bluetooth PCIe card
-* Dell P2415Q 23.8" 4k monitor (x3)
-* Logitech MX Keys keyboard
-* Logitech G502 Lightspeed mouse
-* Noctua fans
-* Apple Mac G5 case (free) with Laser Hive conversion parts
+# Configuration:
 
-Full build images here, including all the case modification work: https://imgur.com/gallery/evzOYV9
+* CPU: Intel Core i9-9900K 3.6 GHz 8-Core Processor
 
+* CPU Cooler: Noctua NH-D15 chromax.Black, 140mm Dual-Tower dual 140mm fan CPU Cooler (Black) 
 
-Please note - EFI is just for reference, kexts etc. may not be current.
+* Motherboard: GIGABYTE Z390 DESIGNARE Gigabyte (Intel LGA1151/Z390/ATX/2xM.2/Thunderbolt 3/Onboard AC Wifi/12+1 Phases Digital Vrm/Motherboard)
 
-## Update 2020-01-04
-Replaced the failing Broadcom BCM94360CS2 WiFi/BT PCIe adapter with a Fenvi FV-HB1200. Works perfectly right out of the box. 
+* Memory: Corsair LPX 32GB (2x16GB) 3200MHz C16 DDR4 DRAM Memory Kit, Black (CMK32GX4M2B3200C16). 2 empty slots
 
-## Update 2019-12-27
-All of a sudden I had the dreaded 'Couldn’t allocate runtime area' boot error, after months of trouble free hackintoshing. Despite a variety of slide values calculated from a memmap output, nothing seemed to work. I tried disabling a few things in the BIOS (LED lighting, USB legacy support, etc) but nothing fixed it. I finally disabled the iGPU and the system booted fine again. Owing to that, I've now changed to iMacPro1,1 SMBIOS and all seems well again - power management looks to be fine, previews work great and us the dGPU, as does video encoding, Premiere Pro, etc. I updated Clover and some kexts that had updates too before upgrading to macOS 10.15.2 which is running great so far...
+* Primary Storage: Sabrent 1TB Rocket NVMe PCIe M.2 2280 Internal SSD High Performance Solid State Drive (SB-ROCKET-1TB)
 
-## Update 2020-04-01
-Updates for 10.15.4 and NVRAM support, everything is latest and greatest, still working perfectly.
+* Windows Storage: Sabrent 256GB Rocket NVMe PCIe M.2 2280 Internal SSD High Performance Solid State Drive (SB-ROCKET-256)
 
-## Update 2020-04-17
-Updates for 10.15.4 supplemental update
+ * Video Card: Radeon VII 16GB HBM2, 1750 MHz Boost, 1801 MHz Peak, 3xDP 1xHDMI Pci-E 3.0 
+
+* Case: NZXT H510 Elite - CA-H510E-W1 - Premium Mid-Tower ATX Case PC Gaming Case - Dual-Tempered Glass Panel - Front I/O USB Type-C Port - Vertical GPU Mount - Integrated RGB Lighting - White/Black
+
+* Power Supply: Corsair RM750x white
+
+* Wireless and Bluetooth Adapter: Fenvi FV-T919 PCIe x1 802.11a/b/g/n/ac Wi-Fi Adapter 
+
+* Case Fans: 3x NZXT AER RGB 2 - HF-28140-B1 - 140mm LED fans, 1x NZXT AER RGB 2 - HF-28120-B1 - 120mm LED fan
